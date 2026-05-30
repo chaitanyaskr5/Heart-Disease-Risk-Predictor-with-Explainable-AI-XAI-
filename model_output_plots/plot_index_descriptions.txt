@@ -1,0 +1,18 @@
+============================================================
+IMAGE INDEX & DESCRIPTION REPORT
+============================================================
+
+1. File Name   : 01_feature_distributions.png
+   Description : A 2x4 histogram grid displaying how individual patient metrics (Age, Cholesterol, Blood Pressure, etc.) differ between healthy cases (Steel Blue) and diagnosed heart disease cases (Tomato Red).
+
+2. File Name   : 02_correlation_matrix.png
+   Description : A full-spectrum correlation matrix heatmap showcasing the linear alignment and overlap among all numeric predictors. Used to inspect potential multi-collinearity issues.
+
+3. File Name   : 03_roc_curves.png
+   Description : A side-by-side performance evaluation plot containing the Receiver Operating Characteristic curves for both Random Forest and XGBoost. Displays overall True Positive versus False Positive trade-offs alongside explicit Area Under Curve (AUC) scores.
+
+4. File Name   : 04_shap_global_summary.png
+   Description : A comprehensive global explainability summary plot generated via SHAP values for the trained XGBoost framework. Ranks feature priority from top-to-bottom and indicates how high vs low value ranges push individual patients towards a clinical diagnosis.
+
+5. File Name   : 05_lime_local_patient_0.png
+   Description : A highly localized linear model analysis map focusing completely on Patient Index #0. Highlights explicit thresholds (e.g. thresholds on age or blood pressure) and quantifies how much those baseline attributes affected this specific individual's risk outcome.
