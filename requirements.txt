@@ -2,12 +2,7 @@ numpy
 pandas
 matplotlib
 seaborn
-shap
-lime
 scikit-learn
 xgboost
 streamlit
 joblib
-
-pip install --upgrade pip
-pip install -r requirements.txt
