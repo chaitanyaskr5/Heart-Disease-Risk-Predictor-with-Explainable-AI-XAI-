@@ -6,7 +6,7 @@
 
 ### A Clinical Decision-Support Dashboard powered by XGBoost, SHAP, and LIME
 
-[![Streamlit] model_output_plots\web app UI.png
+[![Streamlit] <img width="1859" height="972" alt="Image" src="https://github.com/user-attachments/assets/7042c8cf-927d-4a8a-a337-e487fc9e806c" />
 
 <br/>
 
